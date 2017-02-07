@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  
+<div class="container-fluid">
+  <h1>My First Bootstrap Page</h1>      
+  <p>This part is inside a .container-fluid class.</p> 
+  <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>           
+</div>
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container class.</p> 
+  <p>The .container class provides a responsive fixed width container.</p>           
+</div>
+<div class="row">
+	<div class="col-sm-4" style="background-color: grey">.Col-sm-4</div>
+	<div class="col-sm-4" style="background-color: white">.Col-sm-4</div>
+	<div class="col-sm-4" style="background-color: grey">.Col-sm-4</div>
+	
+</div>
+<div class="row">
+	<div class="col-sm-6" style="background-color: lightgreen">Grid-6</div>
+	<div class="col-sm-6" style="background-color: lightblue">Grid-6</div>
+	
+</div>
+<div class="row">
+	<div class="col-sm-8" style="background-color: lightpink">Grid-8</div>
+	<div class="col-sm-4" style="background-color: lightgrey">Grid-4</div>
+	
+</div>
+
+<div class="container">
+	<table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="warning">
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="container">
+	<div class="jumbotron">
+		<div class="page-header">
+			<h1>Rahul Ravi Prakash</h1>
+			
+		</div>
+		<p>Hi..! I'm very nice person. </p>
+		
+	</div>
+	
+</div>
+<!--Alerts-->
+<div class="container" id="alerts">
+	<!--Alerts link-->
+	<div class="alert alert-success">
+	<strong>Success! </strong>You should <a href="#" class="alert-link">read this message.</a>
+		
+	</div>
+	<!--Closing Alert-->
+	<div class="alert alert-warning alert-dismissable">
+		<a href="#" class="close" data-dismiss = "alert" aria-label = "close">&times;</a>
+		<strong>Warning! </strong>You are fucked up!
+		
+	</div>
+	<!--Animated Alerts-->
+	<div class="alert alert-danger alert-dismissable fade in">
+		<a href="#" class="close" data-dismiss = "alert" aria-label = "close">&times;</a>
+		<strong>Warning! </strong>You are fucked up!
+		
+	</div>
+</div>
+
+
+</body>
+</html>
